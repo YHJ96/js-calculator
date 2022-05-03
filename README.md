@@ -1,6 +1,8 @@
 # 자바스크립트 - 계산기
 
-## Git Commit Message
+주소 : [계산기 체험하기](https://yhj96-js-calculator.netlify.app/)
+
+## 📌 Git Commit Message
 
 | 태그이름    | 설명                                                  |
 | ----------- | -----------------------------------------------------|
@@ -15,3 +17,7 @@
 | rename   | 파일 혹은 폴더명 수정하거나 옮기는 작업               |
 | remove   | 파일을 삭제하는 작업만 하는 경우                     |
 | change   | 문자만 변경한 경우                                  |
+
+## 📌 목업
+
+<img src="./assets/mac-calculator.png">
