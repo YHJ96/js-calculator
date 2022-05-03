@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>계산기</title>
+    </head>
+
+    <style>
+
+        * {
+             box-sizing: border-box;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            background-color: antiquewhite;
+            width: 300px;
+            height: 400px;
+        }
+
+        #input {
+            flex: 1.5;
+        }
+
+        .item-container {
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+
+        .item {
+            flex: 1;
+        }
+
+        #zero {
+            flex: 2;
+        }
+
+    </style>
+
+    <body>
+        <main id="container">
+            
+            <section id="input">
+                <span>0</span>
+            </section>
+
+            <section class="item-container">
+                <div class="item">AC</div>
+                <div class="item">+/-</div>
+                <div class="item">%</div>
+                <div class="item">/</div>
+            </section>
+            
+            <section class="item-container">
+                <div class="item">7</div>
+                <div class="item">8</div>
+                <div class="item">9</div>
+                <div class="item">*</div>
+            </section>
+            
+            <section class="item-container">
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+                <div class="item">-</div>
+            </section>
+            
+            <section class="item-container">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">+</div>
+            </section>
+            
+            <section class="item-container">
+                <div id="zero" >0</div>
+                <div class="item">.</div>
+                <div class="item">=</div>
+            </section>
+
+        </main>
+    </body>
+
+</html>    
