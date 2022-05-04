@@ -11,14 +11,20 @@
 <html lang="ko">
     <head>
         <meta charset="UTF-8">
-        <title>계산기</title>
+        <title>🧮 계산기</title>
         <link rel="stylesheet" href="./src/css/index.css">
     </head>
 
     <body>
         <main id="calculator">
+
+            <section id="nav" class="border-radius-top-all border-soild background-color-black">
+                <div class="circle border-circle background-color-red"></div>
+                <div class="circle border-circle background-color-yellow"></div>
+                <div class="circle border-circle background-color-green"></div>
+            </section>
             
-            <section id="calculation-result" class="border-radius-top-all background-color-black border-soild text-color">
+            <section id="calculation-result" class="background-color-black border-soild text-color">
                 <span>0</span>
             </section>
 
@@ -51,7 +57,7 @@
             </section>
             
             <section class="pad-container">
-                <div id="zero" class="border-solid border-radius-bottom-left text-color background-color-light-gray">0</div>
+                <div id="zero" class="pad border-solid border-radius-bottom-left text-color background-color-light-gray">0</div>
                 <div class="pad border-solid text-color background-color-light-gray">.</div>
                 <div class="pad border-solid text-color border-radius-bottom-right background-color-orange">=</div>
             </section>
