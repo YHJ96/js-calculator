@@ -13,3 +13,7 @@
 .border-solid {
     border: solid 1px #282828;
 }
+
+.border-circle {
+    border-radius: 100%;
+}

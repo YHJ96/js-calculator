@@ -1,6 +1,7 @@
 @import "./page/layout.css";
 @import "./shared/color.css";
 @import "./shared/border.css";
+@import "./shared//animation.css";
 
 * {
     box-sizing: border-box;

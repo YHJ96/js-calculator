@@ -1,0 +1,15 @@
+#zero {
+    transition: transform 0.2s;
+}
+
+#zero:hover {
+    transform: scale(1.1);
+}
+
+.pad {
+    transition: transform 0.2s;
+}
+
+.pad:hover {
+    transform: scale(1.1);
+}
