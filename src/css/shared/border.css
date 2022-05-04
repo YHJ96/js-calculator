@@ -1,0 +1,15 @@
+.border-radius-bottom-right {
+    border-radius: 0px 0px 10px 0px;
+}
+
+.border-radius-bottom-left {
+    border-radius: 0px 0px 0px 10px;
+}
+
+.border-radius-top-all {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.border-solid {
+    border: solid 1px #282828;
+}
