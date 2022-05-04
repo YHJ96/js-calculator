@@ -1,6 +1,6 @@
 # 자바스크립트 - 계산기
 
-주소 : [계산기 체험하기](https://yhj96-js-calculator.netlify.app/)
+주소 : [계산기 체험하기](https://yhj96-calculator.cf)
 
 ## 📌 Git Commit Message
 
